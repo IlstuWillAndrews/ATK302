@@ -66,7 +66,8 @@ function state() {
         birdSounds.loop();
         birdPlay = 1;
       }
-      fill("blue");
+      strokeWeight(1)
+      fill("#99F8FC")
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
@@ -96,12 +97,11 @@ function state() {
       }
 
       image(sun, 750, 400, x, y)
-      fill("white")
-
-      stroke("black")
+      fill("#99F8FC")
       textFont("Cora")
       textSize(40)
       smooth();
+      strokeWeight(4)
       if (timer < 1800) {
         text(' If life is not what it seems and is but a dream \n of a God from a faraway land', 375, 300)
         smooth();
@@ -126,8 +126,8 @@ function state() {
 
       }
 
-
-      fill("blue");
+      strokeWeight(1)
+      fill("#99F8FC")
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
@@ -147,8 +147,9 @@ function state() {
       melody.stop()
       background("black")
       image(sun, 750, 400, x, y)
-      fill("white")
+      fill("#99F8FC")
       stroke("black")
+      strokeWeight(4)
       textFont("Cora")
       textSize(40)
       if (timer < 1800) {
@@ -175,8 +176,8 @@ function state() {
 
       }
 
-
-      fill("blue");
+      strokeWeight(1);
+      fill("#99F8FC");
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
@@ -196,8 +197,9 @@ function state() {
 
       background("black")
       image(sun, 750, 400, x, y)
-      fill("white")
+      fill("#99F8FC")
       stroke("black")
+      strokeWeight(4)
       textFont("Cora")
       textSize(40)
       if (timer < 1800) {
@@ -224,8 +226,8 @@ function state() {
 
       }
 
-
-      fill("blue");
+      strokeWeight(1)
+      fill("#99F8FC")
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
@@ -245,8 +247,10 @@ function state() {
       }
 
       background("black")
-      image(sun, 750, 400)
+      image(sun, 750, 400, x, y)
+      fill("#99F8FC")
       stroke("black")
+      strokeWeight(4)
       textFont("Cora")
       textSize(40)
       if (timer < 1780) {
@@ -273,8 +277,8 @@ function state() {
 
       }
 
-
-      fill("blue");
+      strokeWeight(1)
+      fill("#99F8FC")
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
@@ -296,13 +300,14 @@ function state() {
         birdSounds.loop();
         birdPlay = 1;
       }
-      fill("blue");
+      strokeWeight(1)
+      fill("#99F8FC")
       rect(1250, 650, 200, 100);
       fill("white");
       rect(1262.5, 665, 175, 75);
       fill("black")
       textSize(35)
-      text("Restart", 1315, 712.5)
+      text("Restart", 1300, 712.5)
 
 
   }
