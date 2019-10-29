@@ -95,9 +95,11 @@ function draw() {
       ellipse(x + 350, 25, 100, 70);
       ellipse(x + 325, 25, 110, 80);
 
+
       ellipse(x + 600, 80, 90, 60);
       ellipse(x + 650, 80, 90, 60);
       ellipse(x + 625, 80, 100, 70);
+
       x = x + vel;
       if (x > width) {
         x = 0;
