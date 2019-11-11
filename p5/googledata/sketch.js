@@ -123,7 +123,7 @@ function Seasons(myName, mySeason) {
 
   this.display = function() {
     if (this.Seasons == "Spring") {
-      image(rain, this.pos.x, this.pos.y, 25 * springCount, 25 * springCount);
+      image(rain, this.pos.x, this.pos.y, 100, 100);
       this.pos.add(this.vel);
       if (this.pos.x > width) this.pos.x = 0;
       if (this.pos.x < 0) this.pos.x = width;
@@ -131,7 +131,7 @@ function Seasons(myName, mySeason) {
       if (this.pos.y < 0) this.pos.y = height;
     }
     if (this.Seasons == "Summer") {
-      image(sun,this.pos.x, this.pos.y, 25 * summerCount, 25 * summerCount);
+      image(sun,this.pos.x, this.pos.y, 100, 100);
       this.pos.add(this.vel);
       if (this.pos.x > width) this.pos.x = 0;
       if (this.pos.x < 0) this.pos.x = width;
@@ -139,7 +139,7 @@ function Seasons(myName, mySeason) {
       if (this.pos.y < 0) this.pos.y = height;
     }
     if (this.Seasons == "Fall") {
-    image(leaf, this.pos.x, this.pos.y, 25 * fallCount, 25 * fallCount);
+    image(leaf, this.pos.x, this.pos.y, 100, 100);
       this.pos.add(this.vel);
       if (this.pos.x > width) this.pos.x = 0;
       if (this.pos.x < 0) this.pos.x = width;
@@ -147,7 +147,7 @@ function Seasons(myName, mySeason) {
       if (this.pos.y < 0) this.pos.y = height;
     }
     if (this.Seasons == "Winter") {
-      image(snow, this.pos.x, this.pos.y, 25 * winterCount, 25 * winterCount);
+      image(snow, this.pos.x, this.pos.y, 100, 100);
       this.pos.add(this.vel);
       if (this.pos.x > width) this.pos.x = 0;
       if (this.pos.x < 0) this.pos.x = width;
