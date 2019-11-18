@@ -1,4 +1,3 @@
-function gabaa()
-{
-var  oof = 0;
+function t(){
+var  f = 1
 }
