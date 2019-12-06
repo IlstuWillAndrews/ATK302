@@ -16,7 +16,7 @@ function preload() {
 
 function setup() {
   createCanvas(800, 800);
-  menuPic = loadImage("Assets/Menu.png");
+//  menuPic = loadImage("Assets/Menu.png");
   carPic = loadImage("Assets/LadyinCar.png");
   robberPic = loadImage("Assets/Robber1-01.jpg");
   attorneyOfficePic = loadImage("Assets/attorneyoffice.jpg");
@@ -26,7 +26,7 @@ function setup() {
   dollar = loadImage("Assets/Dollar.png")
   womanStands = loadImage("Assets/womanstanding.png")
   womanCry = loadImage("Assets/womancrying2.png")
-  myFont = loadFont("assets/ArialCE.ttf");
+//  myFont = loadFont("assets/ArialCE.ttf");
 
 }
 
