@@ -16,7 +16,7 @@ function preload() {
 
 function setup() {
   createCanvas(800, 800);
-  menuPic = loadImage("Assets/IntroGirl.png");
+  menuPic = loadImage("Assets/Menu.png");
   carPic = loadImage("Assets/LadyinCar.png");
   robberPic = loadImage("Assets/Robber1-01.jpg");
   attorneyOfficePic = loadImage("Assets/attorneyoffice.jpg");
