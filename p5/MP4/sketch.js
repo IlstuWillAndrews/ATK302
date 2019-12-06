@@ -26,7 +26,7 @@ function setup() {
   dollar = loadImage("Assets/Dollar.png")
   womanStands = loadImage("Assets/womanstanding.png")
   womanCry = loadImage("Assets/womancrying2.png")
-  myFont = loadFont("assets/ArialCE.ttf");
+  myFont = loadFont("Assets/ArialCE.ttf");
 
 }
 
