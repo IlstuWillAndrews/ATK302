@@ -16,7 +16,7 @@ function preload() {
 
 function setup() {
   createCanvas(800, 800);
-  menuPic = loadImage("Assets/introGirl.png");
+  menuPic = loadImage("Assets/IntroGirl.png");
   carPic = loadImage("Assets/LadyinCar.png");
   robberPic = loadImage("Assets/Robber1-01.jpg");
   attorneyOfficePic = loadImage("Assets/attorneyoffice.jpg");
@@ -35,7 +35,7 @@ function draw() {
   //background("blue");
 
   if (music.isPlaying() != true) {
-     music.loop();
+    music.loop();
   }
 
 
@@ -116,10 +116,10 @@ function draw() {
     case 6:
       background("white")
       image(happyEnd, 100, 100, 800, 800);
-        textFont(myFont)
+      textFont(myFont)
       textSize(25);
 
-    //  fill("white");
+      //  fill("white");
       text("As Jenn looks down she thinks... ", 160, 250);
       text("maybe today isn't so bad after all", 160, 300);
 
